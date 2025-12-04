@@ -1,0 +1,31 @@
+{
+  "tests": [
+    {
+      "name": "Test Case 1",
+      "run": "python3 main.py",
+      "input": "10\n5\n",
+      "output": "Enter base: Enter height: Area of the triangle: 25.0\n",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Test Case 2",
+      "run": "python3 main.py",
+      "input": "3\n6\n",
+      "output": "Enter base: Enter height: Area of the triangle: 9.0\n",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Test Case 3",
+      "run": "python3 main.py",
+      "input": "7.5\n4\n",
+      "output": "Enter base: Enter height: Area of the triangle: 15.0\n",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}
